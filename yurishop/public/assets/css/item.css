@@ -1,0 +1,127 @@
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.orderdetail-products {
+    border-right: 1px solid #eee;
+}
+
+.cny-money {
+    /*color: #f40;*/
+}
+
+.cny-money p:before {
+    content: '\A5';
+    /* China Yuan Renminbi and Japan Yen: ¥ */
+    padding-right: 4px;
+}
+
+
+/* .cny-money p:after {
+    content: "(Tệ)";
+    padding-left: 4px;
+} */
+
+.vnd-money {
+    color: #2953a6;
+}
+
+.vnd-money p:after,
+.vnd-money-deposit p:after {
+    content: "VND";
+    padding-left: 4px;
+}
+
+.vnd-money-deposit {
+    color: #3f903d;
+}
+
+.item-size p {
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    min-width: 10px;
+    line-height: 12px;
+    padding: 4px 4px;
+}
+
+.item-size p:hover {
+    border-color: #f40;
+}
+
+.item-quantity {
+    font-size: 16px;
+    color: #888;
+    font-weight: bold;
+}
+
+.item-name p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-color p {
+    color: #888;
+    font-weight: lighter;
+}
+
+.item-color p:hover {
+    color: #f40;
+}
+
+.shop-group {
+    /*color: #f40;*/
+    font-weight: bold;
+}
+
+.order-shop-index { margin-top: .1em; }
+
+.shop-icon-color
+{
+    color: #f40;
+}
+.collapse-add-product{
+    margin-top: 10px;
+}
+.loading{
+    text-align: center;
+    padding-top: 10px;
+}
+.add-product .attribute-key, .add-product .attribute-value{
+    padding-left: 0;
+} 
+.add-product .row:not(:last-child){
+    margin-bottom: 10px;
+}
+.product-invalid, .invalid-quantity{
+    background-color: #dd4b39;
+    color: #fff;
+    padding: 7px 0 7px 15px;
+    margin-top: 10px;
+}
+.invalid-quantity{
+    margin-top: -10px;
+}
+
+.label-pending-process{
+  background-color: #FF9900;
+}
+.label-processing{
+  background-color: #0066FF;
+}
+.label-pending-deposit{
+  background-color: #CC6600;
+}
+.label-deposited{
+  background-color: #006666;
+}
+.label-complaint{
+  background-color: #FF3333;
+}
+.label-finished{
+  background-color: #009900;
+}
+.label-cancel{
+  background-color: #990000;
+}
